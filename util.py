@@ -35,9 +35,9 @@ def configure_apikey_sidebar():
 
 def configure_about_sidebar():
     with st.sidebar.expander('Contact'):
-        st.markdown(''' Any Queries: Contact [Zeeshan Altaf](zeeshan.altaf@gmail.com)''')
+        st.markdown(''' Any Queries: Contact [Zeeshan Altaf](mailto:zeeshan.altaf@gmail.com)''')
     with st.sidebar.expander('Source Code'):
-        st.markdown(''' Source code: [GitHub](https://github.com/mzeeshanaltaf/csv-data-analysis)''')
+        st.markdown(''' Source code: [GitHub](https://github.com/mzeeshanaltaf/crewai-agent-tech-chronicle-gemini)''')
 
 
 def configure_llm():
